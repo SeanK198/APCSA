@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Converts a user inputed amount of dollars to Euros, Pound Sterling, and Yen
  *
- * @author RK03-B1225
+ * @author Sean Knoke
  */
 public class P6 {
 
@@ -52,10 +52,10 @@ public class P6 {
     }
 
     /**
-     * converts dollars
+     * converts dollars to other currency
      *
-     * @param dollars
-     * @param exchangeRate
+     * @param dollars (amount of dollars the user wants to convert)
+     * @param exchangeRate (exchange rate entered by user)
      * @return
      */
     public static double convert(double dollars, double exchangeRate) {

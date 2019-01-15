@@ -23,10 +23,10 @@ public class C6_1 {
     }
 
     /**
-     * returns true or false depending on password
+     * password checker method
      *
-     * @param password
-     * @return
+     * @param password (user inputed string)
+     * @return true or false depending on password
      */
     public static boolean isValid(String password) {
         // Atleast 8 characters
